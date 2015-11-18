@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		490FE2131BA8E5DE008FB649 /* AirshipCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 490FE2111BA8E5DE008FB649 /* AirshipCore.h */; settings = {ASSET_TAGS = (); }; };
-		490FE2141BA8E5DE008FB649 /* AirshipCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 490FE2121BA8E5DE008FB649 /* AirshipCore.m */; settings = {ASSET_TAGS = (); }; };
+		490FE2131BA8E5DE008FB649 /* AirshipCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 490FE2111BA8E5DE008FB649 /* AirshipCore.h */; };
+		490FE2141BA8E5DE008FB649 /* AirshipCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 490FE2121BA8E5DE008FB649 /* AirshipCore.m */; };
 		494DD95D1B0EB677009C134E /* AirshipKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 494DD95C1B0EB677009C134E /* AirshipKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		494DDC261B0FD6A1009C134E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 494DDC251B0FD6A1009C134E /* libsqlite3.dylib */; };
 		494DDC281B0FD6A6009C134E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 494DDC271B0FD6A6009C134E /* libz.dylib */; };
@@ -298,7 +298,7 @@
 					"$(inherited)",
 					../Airship/,
 				);
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -324,7 +324,7 @@
 					"$(inherited)",
 					../Airship/,
 				);
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
